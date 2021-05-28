@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/5dd209d0b0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div class="container">
+        <div class="app">
+            <div class="app-top">
+              <div class="app-top_left"><p>07:30</p></div>
+              <div class="app-top_right">
+                  <p><i class="fas fa-wifi"></i></p>
+                  <p><i class="fas fa-battery-full"></i></p>
+              </div>
+            </div>
+            <div class="app-body">
+                <div class="app-bodyTop">
+                    <p>
+                        <span>Good Morning,</span>
+                        <span>Tuyen</span>
+                    <p>
+                    <p>07:30</p>
+                </div>
+                <div class="app-bodyContent">
+                    <div class="app-tabs nav nav-pills" id="pills-tab" role="tablist">
+                        <button class="tab active" id="pills-living-tab" data-toggle="pill" href="#pills-living" role="tab" aria-controls="pills-living" aria-selected="true">Living Room</button>
+                        <button class="tab" id="pills-garage-tab" data-toggle="pill" href="#pills-garage" role="tab" aria-controls="pills-garage" aria-selected="false">Garage Room</button>
+                        <button class="tab" id="pills-kitchen-tab" data-toggle="pill" href="#pills-kitchen" role="tab" aria-controls="pills-kitchen" aria-selected="false">Kitchen</button>
+                    </div>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-living" role="tabpanel" aria-labelledby="pills-living-tab">
+                            <div class="controls">
+                                <div class="control">
+                                    <p class="product_icon active"><i class="fas fa-temperature-high"></i></p>
+                                    <a href="detail.html">Air Conditioner</a>
+                                    <span>4 Device</span>
+                                    <div class="toggle">
+                                    <p class="status active"><span>On</span><span>Off</span></p>
+                                    <p class="control_icon active"><i class="fas fa-power-off"></i></p></div>
+                                </div>
+                                <div class="control">
+                                    <p class="product_icon active"><i class="far fa-lightbulb"></i></p>
+                                    <a href="#">Lamp</a>
+                                    <span>6 Device</span>
+                                    <div class="toggle">
+                                        <p class="status active"><span>On</span><span>Off</span></p>
+                                    <p class="control_icon active"><i class="fas fa-power-off"></i></p></div>
+                                </div>
+                                <div class="control">
+                                    <p class="product_icon active"><i class="fas fa-volume-up"></i></p>
+                                    <a href="#">Google Smart Speaker</a>
+                                    <span>2 Device</span>
+                                    <div class="toggle">
+                                        <p class="status active"><span>On</span><span>Off</span></p>
+                                    <p class="control_icon active"><i class="fas fa-power-off"></i></p></div>
+                                </div><div class="control">
+                                    <p class="product_icon active"><i class="fas fa-tv"></i></p>
+                                    <a href="#">LG Smart TV</a>
+                                    <span>1 Device</span>
+                                    <div class="toggle">
+                                        <p class="status active"><span>On</span><span>Off</span></p>
+                                    <p class="control_icon active"><i class="fas fa-power-off"></i></p></div>
+                                </div>
+                            </div>
+                            <div class="tab-paneFooter">
+                                <div class="tabApp">
+                                <div class="showTApp">          
+                                    <div class="btnHome">
+                                        <p><i class="fas fa-house-user"></i></p>
+                                        <p>Home</p>
+                                    </div>
+                                    <p><i class="fas fa-plus-circle"></i></p>
+                                    <p><i class="fas fa-calendar-alt"></i></p>
+                                    <p><i class="fas fa-user"></i></p>
+                                </div>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-garage" role="tabpanel" aria-labelledby="pills-garage-tab">
+                            <div class="controls">
+                                <div class="control">
+                                    <p class="product_icon active"><i class="fas fa-temperature-high"></i></p>
+                                    <a href="#">Air Conditioner</a>
+                                    <span>2 Device</span>
+                                    <div class="toggle">
+                                        <p class="status active"><span>On</span><span>Off</span></p>
+                                    <p class="control_icon active"><i class="fas fa-power-off"></i></p></div>
+                                </div>
+                                <div class="control">
+                                    <p class="product_icon active"><i class="far fa-lightbulb"></i></p>
+                                    <a href="#">Lamp</a>
+                                    <span>4 Device</span>
+                                    <div class="toggle">
+                                        <p class="status active"><span>On</span><span>Off</span></p>
+                                    <p class="control_icon active"><i class="fas fa-power-off"></i></p></div>
+                                </div>
+                                <div class="control">
+                                    <p class="product_icon active"><i class="fas fa-dungeon"></i></p>
+                                    <a href="#">Door Smart</a>
+                                    <span>2 Device</span>
+                                    <div class="toggle">
+                                        <p class="status active"><span>On</span><span>Off</span></p>
+                                    <p class="control_icon active"><i class="fas fa-power-off"></i></p></div>
+                                </div><div class="control">
+                                    <p class="product_icon active"><i class="fas fa-volume-up"></i></p>
+                                    <a href="#">Google Smart Speaker</a>
+                                    <span>1 Device</span>
+                                    <div class="toggle">
+                                        <p class="status active"><span>On</span><span>Off</span></p>
+                                    <p class="control_icon active"><i class="fas fa-power-off"></i></p></div>
+                                </div>
+                            </div>
+                            <div class="tab-paneFooter">
+                                <div class="tabApp">
+                                <div class="showTApp">          
+                                    <div class="btnHome">
+                                        <p><i class="fas fa-house-user"></i></p>
+                                        <p>Home</p>
+                                    </div>
+                                    <p><i class="fas fa-plus-circle"></i></p>
+                                    <p><i class="fas fa-calendar-alt"></i></p>
+                                    <p><i class="fas fa-user"></i></p>
+                                </div>
+                                </div>
+                                <p></p>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="pills-kitchen" role="tabpanel" aria-labelledby="pills-kitchen-tab">
+                            <div class="controls">
+                                <div class="control" >
+                                    <p class="product_icon active"><i class="fas fa-temperature-high"></i></p>
+                                    <a href="#">Air Conditioner</a>
+                                    <span>1 Device</span>
+                                    <div class="toggle">
+                                        <p class="status active"><span>On</span><span>Off</span></p>
+                                    <p class="control_icon active"><i class="fas fa-power-off"></i></p></div>
+                                    </div>
+                                <div class="control">
+                                    <p class="product_icon active"><i class="fas fa-door-closed"></i></p>
+                                    <a href="#">Fridge</a>
+                                    <span>2 Device</span>
+                                    <div class="toggle">
+                                        <p class="status active"><span>On</span><span>Off</span></p>
+                                    <p class="control_icon active"><i class="fas fa-power-off"></i></p></div>
+                                </div>
+                                <div class="control">
+                                    <p class="product_icon active"><i class="far fa-lightbulb"></i></p>
+                                    <a href="#">Lamp</a>
+                                    <span>2 Device</span>
+                                    <div class="toggle">
+                                        <p class="status active"><span>On</span><span>Off</span></p>
+                                    <p class="control_icon active"><i class="fas fa-power-off"></i></p></div>
+                                </div>
+                                <div class="control">
+                                    <p class="product_icon active"><i class="fas fa-volume-up"></i></p>
+                                    <a href="#">Google Smart Speaker</a>
+                                    <span>1 Device</span>
+                                    <div class="toggle">
+                                        <p class="status active"><span>On</span><span>Off</span></p>
+                                    <p class="control_icon active"><i class="fas fa-power-off"></i></p></div>
+                                </div>
+                            </div>
+                            <div class="tab-paneFooter">
+                                <div class="tabApp">
+                                <div class="showTApp">          
+                                    <div class="btnHome">
+                                        <p><i class="fas fa-house-user"></i></p>
+                                        <p>Home</p>
+                                    </div>
+                                    <p><i class="fas fa-plus-circle"></i></p>
+                                    <p><i class="fas fa-calendar-alt"></i></p>
+                                    <p><i class="fas fa-user"></i></p>
+                                </div>
+                                </div>
+                                <p></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    const $ = document.querySelector.bind(document)
+    const $$ = document.querySelectorAll.bind(document)
+    
+    const productIcons = $$('.product_icon')
+    const controlIcons = $$('.control_icon')
+    const statusS = $$('.status')
+
+    controlIcons.forEach(function(controlIcon,index){
+        const  productIcon =  productIcons[index]
+        const status = statusS[index]
+        controlIcon.onclick = function() {
+                this.classList.toggle("active");
+                productIcon.classList.toggle("active");
+                status.classList.toggle("active")
+        };
+    })
+
+    </script>
+    </body>
+</html>
